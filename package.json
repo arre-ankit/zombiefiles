@@ -1,6 +1,6 @@
 {
 	"name": "zombiefiles",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Find zombie files nobody touched for months. Great for cleaning repos.",
 	"type": "module",
 	"bin": {
@@ -20,7 +20,13 @@
 		"lint": "biome check --write .",
 		"typecheck": "tsc --noEmit"
 	},
-	"keywords": ["cli", "git", "cleanup", "zombie-files", "devtools"],
+	"keywords": [
+		"cli",
+		"git",
+		"cleanup",
+		"zombie-files",
+		"devtools"
+	],
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.0",
 		"@types/node": "^25.4.0",
@@ -35,6 +41,9 @@
 		"picocolors": "^1.0.0"
 	},
 	"pnpm": {
-		"onlyBuiltDependencies": ["@biomejs/biome", "esbuild"]
+		"onlyBuiltDependencies": [
+			"@biomejs/biome",
+			"esbuild"
+		]
 	}
 }
