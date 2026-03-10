@@ -1,3 +1,4 @@
+import clearConsole from "clear-any-console";
 import pc from "picocolors";
 
 const BANNER_LARGE = `
@@ -16,6 +17,7 @@ const BANNER_SMALL = `
 `;
 
 const printBanner = (): void => {
+	clearConsole();
 	const columns = process.stdout.columns ?? 80;
 	const banner = columns >= 55 ? BANNER_LARGE : BANNER_SMALL;
 	console.log(pc.white(banner));
