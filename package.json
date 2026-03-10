@@ -1,5 +1,5 @@
 {
-	"name": "zombiefile",
+	"name": "zombiefiles",
 	"version": "0.0.1",
 	"description": "Find zombie files nobody touched for months. Great for cleaning repos.",
 	"type": "module",
@@ -9,9 +9,9 @@
 	"license": "MIT",
 	"repository": "arre-ankit/zombiefile",
 	"author": {
-		"name": "Ankit Kumar",
-		"email": "arre.ankit@gmail.com",
-		"url": "https://x.com/arre_ankit"
+	  "name": "Ankit Kumar",
+	  "email": "arre.ankit@gmail.com",
+	  "url": "https://x.com/arre_ankit"
 	},
 	"scripts": {
 		"build": "tsup",
@@ -20,7 +20,7 @@
 		"lint": "biome check --write .",
 		"typecheck": "tsc --noEmit"
 	},
-	"keywords": ["cli", "git", "cleanup", "zombie-files", "devtools", "dead-code", "stale-files", "repo-hygiene", "unused-files", "codebase-cleanup", "developer-tools", "zombiefile"],
+	"keywords": ["cli", "git", "cleanup", "zombie-files", "devtools"],
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.0",
 		"@types/node": "^25.4.0",
