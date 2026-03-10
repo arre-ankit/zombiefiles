@@ -1,6 +1,6 @@
 {
 	"name": "zombiefiles",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Find zombie files nobody touched for months. Great for cleaning repos.",
 	"type": "module",
 	"bin": {
