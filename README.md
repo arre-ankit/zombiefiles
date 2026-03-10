@@ -1,5 +1,7 @@
 # 🧟 zombiefiles
 
+![zombiefiles](https://raw.githubusercontent.com/arre-ankit/zombiefiles/refs/heads/main/.github/cover.svg)
+
 Find zombie files nobody touched for months. Great for cleaning repos.
 
 ```

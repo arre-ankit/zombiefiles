@@ -34,6 +34,7 @@
 
 # Canvas
 - Use `@napi-rs/canvas` instead of `canvas` (node-canvas) or `chartjs-node-canvas` for server-side canvas rendering; it uses NAPI-RS (ABI-stable, prebuilt binaries for all platforms, no system Cairo required). Confidence: 0.70
+- For cover images and static assets, write SVG files directly instead of generating images via scripts. Confidence: 0.65
 
 # Markdown
 - Link images/assets in markdown using absolute raw GitHub URLs (e.g., `https://raw.githubusercontent.com/owner/repo/refs/heads/main/.github/cover.ext`) instead of relative paths. Confidence: 0.75
