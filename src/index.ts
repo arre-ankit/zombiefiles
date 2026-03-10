@@ -9,7 +9,7 @@ const pkg = require("../package.json") as { version: string };
 const program = new Command();
 
 program
-	.name("zombiefile")
+	.name("zombiefiles")
 	.description("Find zombie files nobody touched for months.")
 	.version(pkg.version, "-v, --version")
 	.option("-m, --months <number>", "minimum months untouched", "3")

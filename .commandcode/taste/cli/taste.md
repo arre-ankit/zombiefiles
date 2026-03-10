@@ -20,3 +20,4 @@
 - Use pnpm.onlyBuiltDependencies in package.json to pre-approve native binary builds. Confidence: 0.60
 - Use ANSI Shadow font for ASCII art at large terminal widths and ANSI Compact for small widths. Confidence: 0.85
 - Use minimal white, gray, and black colors for ASCII art banners. Confidence: 0.85
+- Use `npx <package-name>` in README example commands instead of bare CLI name. Confidence: 0.65

@@ -4,14 +4,14 @@
 	"description": "Find zombie files nobody touched for months. Great for cleaning repos.",
 	"type": "module",
 	"bin": {
-		"zombiefile": "./dist/index.js"
+		"zombiefiles": "./dist/index.js"
 	},
 	"license": "MIT",
-	"repository": "arre-ankit/zombiefile",
+	"repository": "arre-ankit/zombiefiles",
 	"author": {
-	  "name": "Ankit Kumar",
-	  "email": "arre.ankit@gmail.com",
-	  "url": "https://x.com/arre_ankit"
+		"name": "Ankit Kumar",
+		"email": "arre.ankit@gmail.com",
+		"url": "https://x.com/arre_ankit"
 	},
 	"scripts": {
 		"build": "tsup",
