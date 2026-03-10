@@ -15,6 +15,8 @@ Find zombie files nobody touched for months. Great for cleaning repos.
 
 Scans your git repo and finds files that haven't been touched in months — the zombie files lurking in your codebase.
 
+![zombiefiles demo](https://raw.githubusercontent.com/arre-ankit/zombiefiles/refs/heads/main/.github/zombiefiles-demo.gif)
+
 ## Usage
 
 ```bash
